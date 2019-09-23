@@ -1,0 +1,430 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;, Arial, Helvetica, sans-serif;
+  color:#333;
+ 
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  
+  background-color: #fff;
+  
+}
+
+* {
+  box-sizing: border-box;
+ /* border:1px solid black;*/
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a, a:hover, a:focus {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  width: 90%;
+  max-width: 1170px;
+  
+  margin: 0 auto;
+  position: relative;
+}
+
+.container{
+  background-color: #001526;
+}
+
+.logo{
+  display:block;
+  float:left;
+}
+.logo img{
+  width:50px;
+  height:40px;
+}
+.head-intro-right img{
+  width:40px;
+  height:40px;
+}
+
+ul.nav-menu li a{
+  display:inline-block;
+  width:200px;
+  float:left;
+  padding:13px 30px 13px 30px;
+  color:#001526;
+  font-size:17px;
+  text-align:center;
+
+}
+
+ul.nav-menu li a:hover{
+  display:inline-block;
+  float:left;
+  padding:13px 30px 13px 30px;
+  color:#cccccc;
+  font-size:17px;
+  background-color:#001526;
+
+}
+ul.nav-account li a{
+  display:inline-block;
+  float:right;
+  padding:13px 30px 13px 30px;
+  color:#001526;
+  font-size:17px;
+}
+
+.home-bg{
+  background-image:url(../image/bkimage.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+.container-table h2{
+  text-align:center;
+  font-size:40px;
+  font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;;
+  color:#fff;
+  letter-spacing:2px; 
+}
+
+.container-table h1{
+  text-align:center;
+  font-size:25px;
+  font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;;
+  color:silver;
+  width:400px;
+  letter-spacing:1px; 
+}
+
+.head{
+margin-top:40px;
+margin-bottom:40px;
+height:300px;
+
+}
+
+.head-intro{
+  
+  width: 85%;
+  max-width: 1170px;
+  
+  margin: 0 auto;
+  position: relative;
+  
+}
+.head-intro-left{
+ 
+  width:50%;
+  float:left;
+  line-height:35px;
+  
+}
+.head-intro-right{
+  
+  width:50%;
+  float:left;
+  
+}
+
+.head h2{
+  
+  font-size:30px;
+  font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;;
+  color:#333;
+  text-align:left;
+  
+}
+
+.head h1{
+  text-align:center;
+  font-size:15px;
+  font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;;
+  font-weight:lighter;
+  color:#333;
+  text-align:left; 
+  
+  
+}
+
+.head-intro-right h1{
+  text-align:center;
+  font-size:30px;
+  font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;;
+  font-weight:lighter;
+  color:#333;
+  text-align:left; 
+  text-shadow:2px 2px 2px #cccccc;
+}
+
+.head-intro-right h2{
+  
+  padding-top:15px;
+  padding-bottom:15px;
+  
+  font-size:17px;
+  font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;;
+  font-weight:lighter;
+  color:#333;
+  line-height:24px;
+  text-align:left; 
+  
+}
+
+
+.play-button button{
+  background-color:#1E90FF;
+  opacity: 0.5;
+  padding: 12px 28px;
+  border-radius: 3px;
+  border: 1px silver;
+  
+  letter-spacing: 1px;
+  }
+  .play-button button:hover{
+    background-color:white;
+    opacity: 0.5;
+    padding: 12px 28px;
+    border-radius: 3px;
+    border: 1px silver;
+    
+    letter-spacing: 1px;
+    }
+
+
+.play-button a{
+  font-size:20px;
+  line-height:23px;
+   font-weight:lighter;
+   color:white;
+   z-index: 1;
+ 
+   
+ }
+
+ .play-button a:hover{
+  font-size:20px;
+  line-height:23px;
+   font-weight:lighter;
+   color:#1E90FF;
+   z-index: 1;
+ 
+   
+ }
+  
+
+.head-intro-right h1{
+  color:#008080;
+  display:block;
+  position:relative;
+  
+}
+
+.middle-bg{
+  background-image:url(../image/middle-bg.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  width:100%;
+  
+    display:flex;
+  justify-content:center;
+  align-items:center;
+  
+  
+
+}
+
+.mid-intro{
+  width: 85%;
+  max-width: 1170px;
+ 
+  margin: 0 auto;
+  position: relative;
+  padding-top:50px;
+  
+  
+}
+
+.mid-intro-left{
+ 
+  width:35%;
+  float:left;
+  line-height:35px;
+  color:#333;
+}
+
+.mid-intro-left h1{
+ font-size:35px;
+  font-weight:lighter;
+  text-shadow:2px 2px 2px silver;
+  
+}
+.mid-intro-left h2{
+  font-size:15px;
+  line-height:23px;
+   font-weight:lighter;
+   padding-top:20px;
+ 
+   
+ }
+.middle-button{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+ 
+ .mid-intro-left button{
+  background-color:rgb(190, 132, 61);
+  opacity: 0.7;
+  padding: 12px 28px;
+  border-radius: 3px;
+  border: 1px silver;
+  }
+ .mid-intro-left  a{
+  font-size:20px;
+  line-height:23px;
+   font-weight:lighter;
+   color:white;
+    
+ }
+ 
+
+
+
+ .middle-test-table{
+  
+  
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:static;
+  z-index:1;
+}
+
+
+
+.middle-word{
+  justify-content:center;
+  align-items:center;
+  
+  margin:50px 0px 50px 0px;
+  text-align:center;
+  font-size:20px;
+  text-shadow:2px 2px 2px #cccccc;
+  
+}
+
+.middle-imagewrapper{
+  margin: 0px auto;/*div對齊效果*/
+  text-align: center;/*display: inline對齊效果*/
+}
+
+.mid-image{
+  display: inline-block;/*讓div並排*/ 
+  width:250px;
+  vertical-align:top;
+ padding:0 10px 0 10px;
+  
+ 
+}
+
+strong{
+  font-weight:lighter;
+}
+
+
+.data-portfolio{
+  margin:0px auto;
+  text-align: center;
+  padding:40px 0 50px 0;
+
+
+}
+.data-portfolio div{
+  display: inline-block;/*讓div並排*/ 
+  vertical-align: top;/*就算個個div行數不同，也一律向上對齊*/ 
+}
+
+.data-portfolio div:hover{
+  
+}
+
+.footer-area{
+  
+  width:100%;
+  height:150px; 
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:static;
+  z-index:1;
+  background-color: #001526;
+}
+
+
+
+
+.footer-content{
+float:left;
+width:125px;
+font-size:15px;
+color:silver;
+}
+
+.footer-content a{
+  
+  color:silver;
+  }
+
+
+.footer-content-social{
+  float:right;
+  width:50px;
+  font-size:15px;
+  
+  }
+  
+
+.copyright{
+  background-color:rgb(50, 112, 173);
+  width:100%;
+  height:20px; 
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:static;
+  padding-left:3px;
+  font-size:11px;
+  font-weight:lighter;
+}
