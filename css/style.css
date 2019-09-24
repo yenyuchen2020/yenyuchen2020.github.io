@@ -12,7 +12,8 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   
-  background-color: #fff;
+  
+  
   
 }
 
@@ -36,6 +37,7 @@ a, a:hover, a:focus {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
+  
 }
 
 img {
@@ -45,20 +47,18 @@ img {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 1170px;
   
   margin: 0 auto;
   position: relative;
 }
 
-.container{
-  background-color: #001526;
-}
+
 
 .logo{
   display:block;
-  float:left;
+  float:right;
 }
 .logo img{
   width:50px;
@@ -71,31 +71,30 @@ img {
 
 ul.nav-menu li a{
   display:inline-block;
-  width:200px;
+  width:180px;
   float:left;
   padding:13px 30px 13px 30px;
   color:#001526;
-  font-size:17px;
+  font-size:14px;
   text-align:center;
+ 
 
 }
 
 ul.nav-menu li a:hover{
   display:inline-block;
   float:left;
+  width:180px;
   padding:13px 30px 13px 30px;
   color:#cccccc;
-  font-size:17px;
+  font-size:14px;
   background-color:#001526;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  transition-delay: .25s;
 
 }
-ul.nav-account li a{
-  display:inline-block;
-  float:right;
-  padding:13px 30px 13px 30px;
-  color:#001526;
-  font-size:17px;
-}
+
 
 .home-bg{
   background-image:url(../image/bkimage.jpg);
@@ -103,7 +102,7 @@ ul.nav-account li a{
   background-position:center;
   background-repeat: no-repeat;
   width:100%;
-  height:70%;
+  height:100%;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -219,6 +218,9 @@ height:300px;
     border: 1px silver;
     
     letter-spacing: 1px;
+    transition-duration: .2s;
+  transition-timing-function: linear;
+  transition-delay: .1s;
     }
 
 
@@ -238,6 +240,9 @@ height:300px;
    font-weight:lighter;
    color:#1E90FF;
    z-index: 1;
+   transition-duration: .2s;
+  transition-timing-function: linear;
+  transition-delay: .1s;
  
    
  }
@@ -376,9 +381,7 @@ strong{
   vertical-align: top;/*就算個個div行數不同，也一律向上對齊*/ 
 }
 
-.data-portfolio div:hover{
-  
-}
+
 
 .footer-area{
   
