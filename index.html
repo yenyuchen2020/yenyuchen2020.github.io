@@ -11,7 +11,16 @@
   </head>
   <body>
 <!--header-->
-  <header id=header >
+  <header id="header" >
+      <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#work">Work Experience</a>
+          <a href="#education">Education</a>
+          <a href="#portfolio">Portfolio</a>
+          
+        </div>
+        <!-- Use any element to open the sidenav -->
+
     <div id="top" class=container>
       <nav>
         
@@ -21,13 +30,15 @@
           <li> <a href="#portfolio">Portfolio</a></li>
           
         </ul>
-        <div class="logo">
-          <img src="image/fish2.png" alt="logo">
-        </div>
+        
 
         
 
       </nav>
+      
+    </div>
+    <div class="logo">
+        <span onclick="openNav()"><img src="image/fish2.png" alt="logo"></span>
     </div>
   </header>
   <section class="home-bg">
@@ -154,17 +165,15 @@
         <img src="image/portfolio/shopfoto.jpg" alt="">
         <strong>“Final choice of the shop design of Yogurt Art: creamy background plus fruit images, matched with shop's core message to the mass.  ”</strong>
       </div>
-      
-      
       <div class="mid-image">
         <img  src="image/portfolio/flowerbee.png" alt="">
         <strong>“Designed a CD cover with yellow and flower combination. And further adapt the design to holiday celebration card design” 2012.</strong>
       </div>
-        
-        <div class="mid-image">
+      <div class="mid-image">
         <img  src="image/portfolio/explore.png" alt="">
         <strong>“Website UI design: a traveling website for international friends who are searching for a real Taiwan adventure. ”</strong>
       </div>
+      
      
 
       <div class="mid-image">
@@ -247,6 +256,24 @@
       </div>
       </div>
    </footer>
+
+   <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+      }
+
+
+     
+
+      </script>
 
   </body>
 </html>
