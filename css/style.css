@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;, Arial, Helvetica, sans-serif;
   color:#333;
-  background-color:#fffececec;
+  background-color:#F8F8FF;
  
 }
 
@@ -52,13 +52,13 @@ img {
 
 /* The side navigation menu */
 .sidenav {
-  height: 100%; /* 100% Full-height */
+  height: 50%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0;
-  left: 0;
-  background-color: #111; /* Black*/
+  right: 0;
+  background-color: #001526; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -66,7 +66,7 @@ img {
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 35px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
@@ -179,6 +179,8 @@ ul.nav-menu li a:hover{
   letter-spacing:2px; 
 }
 
+
+
 .container-table h1{
   text-align:center;
   font-size:25px;
@@ -186,6 +188,27 @@ ul.nav-menu li a:hover{
   color:silver;
   width:400px;
   letter-spacing:1px; 
+}
+/*RWD media query*/
+@media screen and (max-width: 350px){
+  .container-table h2{
+    text-align:center;
+    font-size:25px;
+    font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;;
+    color:#fff;
+    letter-spacing:2px; 
+  }
+  
+  
+  
+  .container-table h1{
+    text-align:center;
+    font-size:15px;
+    font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;;
+    color:silver;
+    width:400px;
+    letter-spacing:1px; 
+  }
 }
 
 .head{
@@ -212,11 +235,31 @@ margin-bottom:60px;
   line-height:35px;
   
 }
+
+
 .head-intro-right{
   
   width:50%;
   float:left;
   
+}
+
+@media screen and (max-width: 700px){
+  .head-intro-left{
+ 
+    width:100%;
+    float:left;
+    
+    
+  }
+  .head-intro-right{
+  
+    width:100%;
+    float:left;
+    margin:20px 0 20px 0;
+    
+  }
+
 }
 
 .head h2{
@@ -266,7 +309,6 @@ margin-bottom:60px;
 .play-button{
   margin:10px 20px 10px 20px;
 }
-
 
 
 .play-button button{
@@ -357,6 +399,18 @@ margin-bottom:60px;
   color:#333;
 }
 
+@media screen and (max-width: 700px){
+  .mid-intro-left{
+ 
+    width:100%;
+    float:left;
+    line-height:35px;
+    color:#333;
+  }
+
+}
+
+
 .mid-intro-left h1{
  font-size:35px;
   font-weight:lighter;
@@ -390,7 +444,6 @@ margin-bottom:60px;
    color:white;
     
  }
- 
 
 
 
